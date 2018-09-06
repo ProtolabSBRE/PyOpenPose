@@ -5,6 +5,7 @@ Python bindings for the awesome Openpose library.
 Openpose [github page](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
 
+
 ### Building
 
 Clone and build openpose. If you use cmake then ```make install``` will copy 
@@ -23,6 +24,7 @@ __Note:__ PyOpenPose requires __opencv3.x__. You will have to build openpose wit
 Inside the root folder of PyOpenpose run cmake and build with:
 
 ```bash
+sudo apt-get install python-gi-cairo
 mkdir build
 cd build
 cmake ..
